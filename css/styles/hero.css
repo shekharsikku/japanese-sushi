@@ -8,7 +8,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-
   position: relative;
   z-index: 5
 }
@@ -23,7 +22,6 @@
   position: absolute;
   inset: 0;
   width: 100%;
-
   background-color: var(--primary-color);
   z-index: -1;
 }
@@ -32,7 +30,6 @@
   position: absolute;
   bottom: 0;
   padding: 20px;
-
   font-family: var(--playfair-display);
   font-weight: 700;
   font-size: 120px;
@@ -64,7 +61,6 @@
 
 .hero-content-info p {
   margin: 32px 0 0 32px;
-
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   font-size: 18px;
@@ -73,7 +69,6 @@
 
 .hero-content__buttons {
   margin: 41px 0 0 41px;
-
   display: flex;
   flex-wrap: wrap;
   gap: 36px;
@@ -86,34 +81,33 @@
   outline: none;
   border: none;
   background: var(--secondary-color);
-
-  cursor: pointer;
-
   color: #fff;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero-content__order-button:hover {
+  opacity: 0.85;
 }
 
 .hero-content__play-button {
   border: none;
   outline: none;
   background: transparent;
-
   display: flex;
   align-items: center;
-  
   font-size: 16px;
   line-height: 19px;
   color: var(--black-200);
   font-family: var(--plus-jakarta-sans);
-
   cursor: pointer;
 }
 
 .hero-content__play-button img {
   margin-right: 12px;
-
   width: 46px;
   height: 46px;
   object-fit: contain;
@@ -121,11 +115,9 @@
 
 .hero-content__testimonial {
   padding: 32px 64px;
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
   background: var(--color-white)
 }
 
@@ -153,7 +145,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-
   padding-left: 20px;
   border-left: 1px solid rgba(2, 2, 2, 0.1);
   min-width: 200px;
